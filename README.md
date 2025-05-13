@@ -1,26 +1,27 @@
-# This is a simple Node project as part of a training program
+## This is a simple Node project as part of a training program
 
 # Usage Instructions
 1. Hello World
-node hello-world.js
+-node hello-world.js
 2. HTTP Server
-node server.js
+-node server.js
 Access at: http://localhost:3000
 3. File Operations
-node file-ops.js
-Creates welcome.txt and reads hello.txt
+-node file-ops.js
+-Creates welcome.txt and reads hello.txt
 4. Password Generator
-node password-generator.js
-Generates a random password with:
+-node password-generator.js
+-Generates a random password with:
 -length: 10,  
 -	numbers: true,
 -	symbols: true, 
 -	uppercase: true,
 -	lowercase: true,
 5. Email Sender
-node email-sender.js
-Sends test email using configured credentials
-Email Transport Configuration
+-node email-sender.js
+-Sends test email using configured credentials
+-Email Transport Configuration
+
 {
   service: 'gmail',    // Email service provider
   auth: {
@@ -28,6 +29,7 @@ Email Transport Configuration
     pass: process.env.EMAIL_PASS   // From .env.example
   }
 }
+
 •	For Gmail, you can use an App Password instead of your main password
 
 
