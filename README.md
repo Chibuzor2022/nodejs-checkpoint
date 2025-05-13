@@ -11,8 +11,8 @@
 (Creates welcome.txt and reads hello.txt)
 5. Password Generator
 -node password-generator.js
--Generates a random password with:
 
+-Generates a random password with:
 -length: 10,  
 -	numbers: true,
 -	symbols: true, 
